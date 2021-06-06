@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "fragment": "Fragment",
+      "version": "detect"
+    },
+    "extends": ["plugin:react/recommended"],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 11,
+      "sourceType": "module"
+    },
+    "parser": "babel-eslint",
+    "plugins": ["react"],
+    "rules": {
+      "react/prop-types": 0,
+      "indent": ["error", 4],
+      "object-curly-spacing": ["error", "always"],
+      "react/jsx-curly-spacing": [2, "always"]
+    }
+  }
+}
